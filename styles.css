@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+width: 450px;
+
+
+
+}
+.container .box{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.box .image{
+    background: url(cat.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+
+}
+.box.hovered{
+    border: 2px dashed black;
+}
